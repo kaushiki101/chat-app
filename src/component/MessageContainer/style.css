@@ -1,0 +1,36 @@
+.MessageContainer {
+    background: #efefef;
+    height: 800px;
+    width: 100%;
+    overflow: scroll;
+    padding: 0rem 1rem;
+}
+
+.chat-bubble{
+    background: white;
+    border-radius: 12px;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 80%;
+}
+
+.chat-bubble.received{
+    border-bottom-left-radius: 0px;
+}
+
+.chat-bubble.sender{
+    background: blue;
+    color: white;
+    margin-left: 20%;
+    border-bottom-right-radius: 0px;
+}
+
+.chat-bubble-container {
+    display: flex;
+}
+
+.chat-bubble-container img{
+    margin-top: 1rem;
+    max-height: 24px;
+    max-width: 24px;
+}

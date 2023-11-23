@@ -1,0 +1,13 @@
+.MessageHeader {
+    display: flex;
+    padding: 1rem;
+    border-bottom: 2px solid #dfdbdb
+}
+
+.MessageHeader .content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 10px;
+}
